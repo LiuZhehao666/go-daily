@@ -1,10 +1,9 @@
 package main
 
-//if 语句基本写法
 import "fmt"
 
 func main() {
-	var score = 80
+	score := 80
 	if score > 90 {
 		fmt.Println("优秀")
 	} else if score > 75 {
@@ -14,5 +13,4 @@ func main() {
 	} else {
 		fmt.Println("继续加油！")
 	}
-	fmt.Println(score)
 }

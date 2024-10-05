@@ -2,8 +2,9 @@ package main
 
 import "fmt"
 
+// if 特殊写法
 func main() {
-	if score := 80; score > 90 { //初始化写在条件语句内
+	if score := 80; score > 90 {
 		fmt.Println("优秀")
 	} else if score > 75 {
 		fmt.Println("良好")
@@ -12,5 +13,4 @@ func main() {
 	} else {
 		fmt.Println("继续加油！")
 	}
-	//fmt.Println(score) //会报错
 }
